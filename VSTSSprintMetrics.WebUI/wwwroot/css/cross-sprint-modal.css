@@ -1,0 +1,19 @@
+﻿.modal-content {
+    min-height: 90vh;
+}
+
+.modal-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80% auto;
+}
+
+.modal-body-stats-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, auto);
+}
+
+#chart-container {
+    position: relative;
+}
